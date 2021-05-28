@@ -1,0 +1,37 @@
+{
+	"name": "pessek/hypemapsopen",
+	"type": "elgg-plugin",
+	"description": "Maps built with open tech",
+	"keywords": [
+		"elgg",
+		"plugin",
+		"maps",
+		"geocoder",
+		"location",
+		"leaflet",
+		"open street maps",
+		"nominatim"
+	],
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Hermand PESSEK",
+			"email": "rhemandaddy@gmail.com"
+		}
+	],
+	"extra": {
+		"installer-name": "hypeMapsOpen"
+	},
+	"require": {
+		"php": ">=7.1",
+		"composer/installers": "~1.0",
+		"npm-asset/leaflet": "~1.0",
+		"npm-asset/Leaflet.awesome-markers": "~2.0",
+		"npm-asset/leaflet.markercluster": "~1.0"
+	},
+	"autoload": {
+		"psr-0": {
+			"": "classes/"
+		}
+	}
+}
